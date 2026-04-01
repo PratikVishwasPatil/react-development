@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Main app shell: let routed pages use full viewport width (no accidental narrow column). */
+.app-container {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.total-row {
+  background-color: #cfe2ff !important;
+  font-weight: bold;
+}
+.total-column {
+  background-color: #cfe2ff !important;
+  font-weight: bold;
+}
+.ag-theme-alpine .ag-cell {
+  border-right: 1px solid #dcdcdc;
+}
+
+.ag-theme-alpine .ag-header-cell {
+  border-right: 1px solid #dcdcdc;
+}
+.ag-theme-alpine .ag-row .ag-cell {
+  border-right: 1px solid #dcdcdc !important;
+}
